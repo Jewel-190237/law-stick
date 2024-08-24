@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './About';
 import Service from './Service';
+import Offer from './Offer';
 
 const HomePage = () => {
     return (
@@ -8,6 +9,7 @@ const HomePage = () => {
 
             <About/>
             <Service/>
+            <Offer/>
             
         </div>
     );
