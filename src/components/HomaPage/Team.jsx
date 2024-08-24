@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Offer = () => {
+const Team = () => {
     return (
         <div>
-            Offer
+            Team
         </div>
     );
 };
 
 
-export default Offer;
+export default Team;
