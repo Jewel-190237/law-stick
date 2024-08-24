@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Expert = () => {
+const Experience = () => {
     return (
         <div>
-            Expert
+            
         </div>
     );
 };
 
-export default Expert;
+export default Experience;
