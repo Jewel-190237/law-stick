@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Service = () => {
+const Offer = () => {
     return (
         <div>
-            Service
+            
         </div>
     );
 };
 
 
-export default Service;
+export default Offer;
