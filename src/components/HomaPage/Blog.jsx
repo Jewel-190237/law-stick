@@ -12,6 +12,10 @@ const Blog = () => {
                 <h1 className='heading'>Legal Insights & Expert Advice:
                 Our Blog</h1>
             </div>
+            <div>
+                <p className='description'> Stay informed with our expert legal insights and advice. Our blog covers key topics to help
+                you navigate complex legal matters with confidence.</p>
+            </div>
         </section>
     );
 };
