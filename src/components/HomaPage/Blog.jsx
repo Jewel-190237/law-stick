@@ -9,11 +9,11 @@ const Blog = () => {
                 <p className='text-[#B68C5A] text-[16px] font-bold'>Latest Top Blog</p>
             </div>
             <div className='mt-[25px]'>
-                <h1 className='heading w-full lg:w-1/2'>Legal Insights & Expert Advice:
+                <h1 className='heading '>Legal Insights & Expert Advice: <br className='hidden lg:flex' />
                     Our Blog</h1>
             </div>
             <div className='[40px]'>
-                <p className='description w-full lg:w-1/2'> Stay informed with our expert legal insights and advice. Our blog covers key topics to help
+                <p className='description w-full lg:w-1/2'> Stay informed with our expert legal insights and advice. Our blog covers key topics to <br className='hidden lg:flex' />  help 
                     you navigate complex legal matters with confidence.</p>
             </div>
             <div className='mt-[40xp] grid grid-cols-1 lg:grid-cols-3 gap-6'>
