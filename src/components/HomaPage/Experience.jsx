@@ -15,7 +15,7 @@ const Experience = () => {
             </div>
             <div className='bg-[#F9F6EE]'>
                 {/* slider part */}
-                <div className='max-w-[1320px] mx-auto pt-20 pb-10 pl-5'>
+                <div className='max-w-[1320px] mx-auto pt-20 pb-8 pl-5'>
                     <div className='flex flex-col lg:flex-row justify-between'>
                         <div className='flex-1'>
                             <div>
@@ -34,10 +34,10 @@ const Experience = () => {
                         </div>
 
                     </div>
-                    <div className=' w-full h-[1px] bg-[#B68C5A]'>
+                    <div className=' mt-10 w-full h-[1px] bg-[#B68C5A]'>
                         <br />
                     </div>
-                    <div className='mt-4 flex gap-2 items-center'>
+                    <div className='mt-8 flex gap-2 items-center'>
                         <Image src='/quete.png' height={50} width={50} alt='Blog Icon' />
                         <div>
                             <p className='text-xl lato'>Brooklyn Simmons</p>
