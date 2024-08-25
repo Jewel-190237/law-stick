@@ -4,6 +4,7 @@ import Service from './Service';
 import Offer from './Offer';
 import Team from './Team';
 import Expert from './Expert';
+import Blog from './Blog';
 
 const HomePage = () => {
     return (
@@ -14,6 +15,7 @@ const HomePage = () => {
             <Offer/>
             <Team/>
             <Expert/>
+            <Blog/>
         </div>
     );
 };
