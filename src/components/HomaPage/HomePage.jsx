@@ -9,7 +9,7 @@ import Experience from './Experience';
 
 const HomePage = () => {
     return (
-        <div className='max-w-[1320px] mx-auto'>
+        <div className=''>
 
             <About/>
             <Service/>
