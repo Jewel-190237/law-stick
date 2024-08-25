@@ -3,18 +3,18 @@ import React from 'react';
 
 const Experience = () => {
     return (
-        <div>
+        <section className='mt-20'>
             <div className='mx-auto'>
                 <div className='flex items-center gap-2 '>
                     <Image src='/blogIcon.png' height={26} width={32} alt='Blog Icon' />
-                    <p className='text-[#B68C5A] text-[16px] font-bold'>Latest Top Blog</p>
+                    <p className='text-[#B68C5A] text-[16px] font-bold'>Client Experiences</p>
                 </div>
                 <div className='mt-[25px]'>
-                    <h1 className='heading w-full lg:w-1/2'>Legal Insights & Expert Advice:
-                        Our Blog</h1>
+                    <h1 className='heading w-full lg:w-1/2'>clients have confidents
+                        with us </h1>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
