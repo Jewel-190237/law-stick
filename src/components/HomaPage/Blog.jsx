@@ -19,8 +19,20 @@ const Blog = () => {
             <div className='mt-[40xp] grid grid-cols-1 lg:grid-cols-3 gap-6'>
                 <div className=' bg-[#F9F6EE] rounded-lg p-5'>
                     <Image src='/blog.png' height={327} width={455} alt='Blog Icon' />
-                    <div className='section-heading uppercase'>
+                    <div className='section-heading uppercase mt-5'>
                         REAL-ESTATE
+                    </div>
+                    <p className='description mt-5'>Key Legal Rights Every Individual Should Know: A Guide
+                        to Protecting Yourself</p>
+                    <div className='mt-5 flex justify-between'>
+                        <div className='flex items-center gap-2'>
+                            <Image src='/person.png' height={30} width={30} alt='Blog Icon' />
+                            <p className='description'>Antony Das</p>
+                        </div>
+                        <div className='flex items-center gap-2'>
+                            <Image src='/timeIcon.png' height={20} width={20} alt='Blog Icon' />
+                            <p className='description uppercase'>10 min to read</p>
+                        </div>
                     </div>
                 </div>
                 <div className='col-span-2 '>
