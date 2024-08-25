@@ -36,12 +36,35 @@ const Blog = () => {
                     </div>
                 </div>
                 <div className='col-span-2 '>
-                    <div className='bg-[#F9F6EE] rounded-lg p-5'>
-
+                    <div className='bg-[#F9F6EE] rounded-lg px-5 pt-5 pb-1'>
+                        <div className='section-heading uppercase'>
+                            civil law
+                        </div>
+                        <p className='description '>10 Essential Legal Rights You Should Be Aware of: Protecting Yourself and Navigating Complex
+                            Legal Situations with Confidence</p>
                     </div>
-
+                    <div className='bg-[#F9F6EE] rounded-lg px-5 pt-5 pb-1 mt-3'>
+                        <div className='section-heading uppercase'>
+                            education law
+                        </div>
+                        <p className='description'>10 Essential Legal Rights You Should Be Aware of: Protecting Yourself and Navigating Complex
+                            Legal Situations with Confidence</p>
+                    </div>
+                    <div className='bg-[#F9F6EE] rounded-lg px-5 pt-5 pb-1 mt-3'>
+                        <div className='section-heading uppercase'>
+                            criminal law
+                        </div>
+                        <p className='description '>10 Essential Legal Rights You Should Be Aware of: Protecting Yourself and Navigating Complex
+                            Legal Situations with Confidence</p>
+                    </div>
+                    <div className='bg-[#F9F6EE] rounded-lg px-5 pt-5 pb-1 mt-3'>
+                        <div className='section-heading uppercase'>
+                            professional law
+                        </div>
+                        <p className='description'>10 Essential Legal Rights You Should Be Aware of: Protecting Yourself and Navigating Complex
+                            Legal Situations with Confidence</p>
+                    </div>
                 </div>
-
             </div>
         </section>
     );
