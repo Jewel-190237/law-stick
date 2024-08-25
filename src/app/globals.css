@@ -31,4 +31,5 @@
     gap: 10px;
     border-radius: 10px;
     background: var(--main-color, #B68C5A);
+    color: white;
 }
