@@ -3,7 +3,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <section>
+        <section className='mt-20 mb-20'>
             <div className='flex items-center gap-2'>
                 <Image src='/blogIcon.png' height={26} width={32} alt='Blog Icon' />
                 <p className='text-[#B68C5A] text-[16px] font-bold'>Latest Top Blog</p>
