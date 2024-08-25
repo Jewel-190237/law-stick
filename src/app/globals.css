@@ -23,3 +23,12 @@
     /* 25.6px */
     text-transform: capitalize;
 }
+
+.section-heading {
+    display: inline-flex;
+    padding: 10px 15px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: var(--main-color, #B68C5A);
+}

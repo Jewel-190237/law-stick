@@ -19,6 +19,9 @@ const Blog = () => {
             <div className='mt-[40xp] grid grid-cols-1 lg:grid-cols-3 gap-6'>
                 <div className=' bg-[#F9F6EE] rounded-lg p-5'>
                     <Image src='/blog.png' height={327} width={455} alt='Blog Icon' />
+                    <div className='section-heading uppercase'>
+                        REAL-ESTATE
+                    </div>
                 </div>
                 <div className='col-span-2 '>
                     <div className='bg-[#F9F6EE] rounded-lg p-5'>
