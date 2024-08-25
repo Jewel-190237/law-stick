@@ -33,3 +33,6 @@
     background: var(--main-color, #B68C5A);
     color: white;
 }
+.lato {
+    font-family: Lato;
+}
