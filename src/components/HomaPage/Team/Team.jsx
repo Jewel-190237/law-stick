@@ -1,5 +1,21 @@
+"use client"
+
 import Image from 'next/image';
-import React from 'react';
+
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+
+import './styles.css';
+
+// import required modules
+import { EffectCoverflow, Pagination } from 'swiper/modules';
+
 
 const Team = () => {
     return (
@@ -12,6 +28,43 @@ const Team = () => {
                 <div className='mt-[25px] '>
                     <h1 className='heading text-center'>the faces of justice</h1>
                 </div>
+            </div>
+            <div className='mt-10'>
+                <Swiper
+                    effect={'coverflow'}
+                    grabCursor={true}
+                    centeredSlides={true}
+                    slidesPerView={'auto'}
+                    coverflowEffect={{
+                        rotate: 50,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows: true,
+                    }}
+                    pagination={true}
+                    modules={[EffectCoverflow, Pagination]}
+                    className="mySwiper"
+                >
+                    <SwiperSlide>
+                        <Image src='/sliderTeam.png' height={500} width={500} alt='Blog Icon' />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Image src='/sliderTeam.png' height={500} width={500} alt='Blog Icon' />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Image src='/sliderTeam.png' height={500} width={500} alt='Blog Icon' />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Image src='/sliderTeam.png' height={500} width={500} alt='Blog Icon' />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Image src='/sliderTeam.png' height={500} width={500} alt='Blog Icon' />
+                    </SwiperSlide>
+
+
+                </Swiper>
+
             </div>
         </section>
     );
