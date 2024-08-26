@@ -8,9 +8,9 @@ import { ArrowRightOutlined } from '@ant-design/icons';
 
 const Expert = () => {
     return (
-        <section className='max-w-[1230px] mx-auto mb-20'>
+        <section className='max-w-[1230px] mx-auto'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
-                <div className='!h-[700px] !w-[400px]'>
+                <div className=''>
 
                 </div>
                 <div>
