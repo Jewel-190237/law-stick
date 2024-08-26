@@ -52,9 +52,9 @@ const Experience = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className=" flex gap-6 mt-10">
-                                        <a href="#slide4" className="btn btn-circle">❮</a>
-                                        <a href="#slide2" className="btn btn-circle">❯</a>
+                                    <div className=" flex gap-4 mt-10">
+                                        <a href="#slide4" className="py-2 px-3 rounded-md bg-white text-[#B68C5A]">❮</a>
+                                        <a href="#slide2" className="py-2 px-3 rounded-md bg-white text-[#B68C5A]">❯</a>
                                     </div>
                                 </div>
 
