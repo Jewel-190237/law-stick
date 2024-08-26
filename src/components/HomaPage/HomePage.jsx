@@ -2,10 +2,10 @@ import React from 'react';
 import About from './About';
 import Service from './Service';
 import Offer from './Offer';
-import Team from './Team';
 import Expert from './Expert';
 import Blog from './Blog';
 import Experience from './Experience';
+import Team from './Team/Team';
 
 const HomePage = () => {
     return (
