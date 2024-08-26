@@ -41,19 +41,27 @@ const Experience = () => {
                             <div className=' mt-10 w-full h-[1px] bg-[#B68C5A]'>
                                 <br />
                             </div>
-                            <div className='mt-8 flex gap-2 items-center'>
-                                <Image src='/quete.png' height={50} width={50} alt='Blog Icon' />
-                                <div>
-                                    <p className='text-xl lato'>Brooklyn Simmons</p>
-                                    <p className='text-[14px] lato'>CEO and Founder</p>
+
+
+                            <div className='flex justify-between items-center'>
+                                <div className='mt-8 flex gap-2 items-center'>
+                                    <Image src='/quete.png' height={50} width={50} alt='Blog Icon' />
+                                    <div>
+                                        <p className='text-xl lato'>Brooklyn Simmons</p>
+                                        <p className='text-[14px] lato'>CEO and Founder</p>
+                                    </div>
                                 </div>
+                                <div>
+                                    <div className=" flex gap-6 mt-10">
+                                        <a href="#slide4" className="btn btn-circle">❮</a>
+                                        <a href="#slide2" className="btn btn-circle">❯</a>
+                                    </div>
+                                </div>
+
                             </div>
+
                         </div>
 
-                        <div className="absolute w-1/2 bottom-10 flex gap-6">
-                            <a href="#slide4" className="btn btn-circle">❮</a>
-                            <a href="#slide2" className="btn btn-circle">❯</a>
-                        </div>
                     </div>
                 </div>
             </div>
