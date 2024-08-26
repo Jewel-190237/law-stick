@@ -25,8 +25,8 @@ const Expert = () => {
                         to delivering justice while protecting our clients rights.
                     </p>
                     <div className='mt-10'>
-                        <button className='flex items-center gap-2 bg-white hover:bg-[#B68C5A] border border-[#B68C5A] text-black hover:text-white rounded-lg py-4 px-6'>
-                            <p>Read More</p>
+                        <button className='flex items-center gap-2 bg-white hover:bg-[#B68C5A] border border-[#B68C5A] text-black hover:text-white rounded-lg py-4 px-8'>
+                            <p className='text-[18px] lato'>Read More</p>
                             {/* <Image src='/aero.jpg' height={20} width={20} alt='Blog Icon' /> */}
                             <ArrowRightOutlined />
                         </button>
