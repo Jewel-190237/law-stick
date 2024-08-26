@@ -31,6 +31,12 @@ body {
   height: 300px;
 }
 
+.swiper-slide-active {
+  opacity: 1;
+  margin-left: 40px;
+  margin-right: 50px;
+}
+
 .swiper-slide img {
   display: block;
   width: 100%;
