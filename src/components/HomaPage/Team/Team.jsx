@@ -38,6 +38,7 @@ const Team = () => {
                 <Swiper
                     effect={'coverflow'}
                     grabCursor={true}
+                    loop={true}
                     centeredSlides={true}
                     slidesPerView={'auto'}
                     coverflowEffect={{
@@ -46,7 +47,7 @@ const Team = () => {
                         depth: 100,
                         modifier: 2,
                         slideShadows: true,
-                        loop:true,
+                        
                     }}
                     pagination={true}
                     modules={[EffectCoverflow, Thumbs]}
