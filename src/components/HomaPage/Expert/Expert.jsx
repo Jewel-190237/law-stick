@@ -1,17 +1,44 @@
-
+"use client"
 import Image from 'next/image';
-
 import { ArrowRightOutlined } from '@ant-design/icons';
 
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
 
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-cards';
 
+import './style.css';
+import { EffectCards } from 'swiper/modules';
 
 const Expert = () => {
     return (
         <section className='max-w-[1230px] mx-auto'>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
-                <div className=''>
-
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-20'>
+                <div className='mr-40 ml-10 lg:ml-0 '>
+                    <Swiper
+                        effect={'cards'}
+                        grabCursor={true}
+                        loop={true}
+                        modules={[EffectCards]}
+                        className="mySwiper"
+                    >
+                        <SwiperSlide>
+                            <Image src='/image 1.png' height={480} width={424} alt='Blog Icon' />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <Image src='/image 2.png' height={480} width={424} alt='Blog Icon' />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <Image src='/image 3.png' height={480} width={424} alt='Blog Icon' />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <Image src='/image 4.png' height={480} width={424} alt='Blog Icon' />
+                        </SwiperSlide>
+                        
+                    </Swiper>
                 </div>
                 <div>
                     <div className='flex flex-col'>

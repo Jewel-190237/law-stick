@@ -50,10 +50,10 @@ const Team = () => {
                         modifier: 2.5,
                         slideShadows: true,
                     }}
-                    autoplay={{
-                        delay: 3000,
-                        disableOnInteraction: false,
-                    }}
+                    // autoplay={{
+                    //     delay: 3000,
+                    //     disableOnInteraction: false,
+                    // }}
                     modules={[EffectCoverflow , Autoplay]}
                     className="mySwiper"
                 >
