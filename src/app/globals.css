@@ -20,6 +20,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
+
     /* 25.6px */
     text-transform: capitalize;
 }
@@ -28,6 +29,7 @@
     display: inline-flex;
     padding: 10px 15px;
     align-items: flex-start;
+    /* font-family: Lato; */
     gap: 10px;
     border-radius: 10px;
     background: var(--main-color, #B68C5A);
