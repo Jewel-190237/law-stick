@@ -29,7 +29,7 @@ const Team = () => {
                     <h1 className='heading text-center'>the faces of justice</h1>
                 </div>
             </div>
-            <div className='mt-10'>
+            <div className=''>
                 <Swiper
                     effect={'coverflow'}
                     grabCursor={true}

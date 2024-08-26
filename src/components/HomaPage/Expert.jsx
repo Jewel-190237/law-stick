@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
 
+import { ArrowRightOutlined } from '@ant-design/icons';
+
 const Expert = () => {
     return (
         <section className='max-w-[1320px] mx-auto mb-20'>
@@ -23,9 +25,10 @@ const Expert = () => {
                         to delivering justice while protecting our clients rights.
                     </p>
                     <div className='mt-10'>
-                        <button className='flex items-center gap-2 bg-[#B68C5A] text-white rounded-lg py-4 px-6'>
+                        <button className='flex items-center gap-2 bg-white hover:bg-[#B68C5A] border border-[#B68C5A] text-black hover:text-white rounded-lg py-4 px-6'>
                             <p>Read More</p>
-                            <Image src='/aero.png' height={20} width={20} alt='Blog Icon' />
+                            {/* <Image src='/aero.jpg' height={20} width={20} alt='Blog Icon' /> */}
+                            <ArrowRightOutlined />
                         </button>
                     </div>
                 </div>
