@@ -40,7 +40,7 @@ const Blog = () => {
                         <div className='section-heading uppercase'>
                             civil law
                         </div>
-                        <p className='description '>10 Essential Legal Rights You Should Be Aware of: Protecting Yourself and Navigating Complex
+                        <p className='description'>10 Essential Legal Rights You Should Be Aware of: Protecting Yourself and Navigating Complex
                             Legal Situations with Confidence</p>
                     </div>
                     <div className='bg-[#F9F6EE] rounded-lg px-5 pt-5 pb-1 mt-3'>

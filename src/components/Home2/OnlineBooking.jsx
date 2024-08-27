@@ -26,7 +26,7 @@ const OnlineBooking = () => {
                 </div>
                 <div className='bg-[#EFF5F5] grid grid-cols-4 rounded'>
                     <div className='py-14 pl-10'>
-                        <Image src='/personIcon.png' width={56} height={56} alt='image' />
+                        <Image src='/hand.png' width={56} height={56} alt='image' />
 
                     </div>
                     <div className='w-[1.5px] h-[78px] mx-10 mt-12 bg-[#D9CDCD]'>
@@ -40,7 +40,7 @@ const OnlineBooking = () => {
                 </div>
                 <div className='bg-[#EFF5F5] grid grid-cols-4 rounded'>
                     <div className='py-14 pl-10'>
-                        <Image src='/personIcon.png' width={56} height={56} alt='image' />
+                        <Image src='/pay.png' width={56} height={56} alt='image' />
 
                     </div>
                     <div className='w-[1.5px] h-[78px] mx-10 mt-12 bg-[#D9CDCD]'>
