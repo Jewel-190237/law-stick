@@ -42,6 +42,32 @@
     background: var(--main-color, #B68C5A);
     color: white;
 }
+
 .lato {
     font-family: Lato;
+}
+
+
+
+/* Home2 related styles */
+
+.section-heading2 {
+    color: var(--main-color, #B68C5A);
+    font-family: Cormorant;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.section-title2 {
+    color: var(--text-primary2, #0C0C15);
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
 }

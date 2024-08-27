@@ -8,6 +8,7 @@ import Hero from './Hero';
 import AboutUs from './AboutUs';
 import OurService from './OurService';
 import WhatWeOffer from './WhatWeOffer';
+import OnlineBooking from '../Home2/OnlineBooking';
 
 const HomePage = () => {
     return (
@@ -20,6 +21,9 @@ const HomePage = () => {
             <Expert/>
             <Experience/>
             <Blog/>
+
+            {/* home2 */}
+            <OnlineBooking/>
         </div>
     );
 };
