@@ -5,8 +5,8 @@ const OnlineBooking = () => {
     return (
         <section className='max-w-[1320px] mx-auto my-20'>
             <h4 className='section-heading2 text-center'>online booking</h4>
-            <h1 className='mt-6 section-title2'>Schedule Your Consultation Today</h1>
-            <p className='mt-10 section-description2 w-full lg:w-1/2 mx-auto '> Take the first step toward resolving your legal issue. Book a free consultation with
+            <h1 className='mt-6 section-title2 text-center'>Schedule Your Consultation Today</h1>
+            <p className='mt-10 text-center section-description2 w-full lg:w-1/2 mx-auto '> Take the first step toward resolving your legal issue. Book a free consultation with
                 our expert team today, and get the personalized advice and guidance you need
             </p>
             <div className='flex flex-col md:flex-row mt-14 gap-6'>

@@ -16,7 +16,7 @@ const Blog = () => {
                 <p className='description w-full lg:w-1/2'> Stay informed with our expert legal insights and advice. Our blog covers key topics to <br className='hidden lg:flex' />  help 
                     you navigate complex legal matters with confidence.</p>
             </div>
-            <div className='mt-[40px] grid grid-cols-1 lg:grid-cols-3 gap-6'>
+            <div className='mt-[40px] grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-[1250px]'>
                 <div className=' bg-[#F9F6EE] rounded-lg p-5'>
                     <Image src='/blog.png' height={327} width={455} alt='Blog Icon' />
                     <div className='section-heading uppercase mt-5'>

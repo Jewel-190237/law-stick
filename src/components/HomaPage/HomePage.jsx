@@ -9,6 +9,7 @@ import AboutUs from './AboutUs';
 import OurService from './OurService';
 import WhatWeOffer from './WhatWeOffer';
 import OnlineBooking from '../Home2/OnlineBooking';
+import LatestAndTopBlog from '../Home2/LatestAndTopBlog';
 
 const HomePage = () => {
     return (
@@ -23,6 +24,7 @@ const HomePage = () => {
             <Blog/>
 
             {/* home2 */}
+            <LatestAndTopBlog/>
             <OnlineBooking/>
         </div>
     );
