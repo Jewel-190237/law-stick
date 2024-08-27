@@ -13,7 +13,7 @@ const ClientsExperience = () => {
                             <div id="s1" className="carousel-item relative w-full">
                                 <div className='pt-20 pb-8'>
                                     <div className=''>
-                                        <Image className='mt-0 lg:-mt-20' src='/clientSliderImage.png' height={552} width={463} alt='Blog Icon' />
+                                        <Image className=' w-1/2 lg:w-full mt-0 lg:-mt-20' src='/clientSliderImage.png' height={552} width={463} alt='Blog Icon' />
                                     </div>
                                     <div className='relative bg-white w-[481px] h-[290px] pt-2 px-12 rounded-md -mt-60 ml-20'>
                                         <div>

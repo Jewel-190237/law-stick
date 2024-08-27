@@ -1,10 +1,9 @@
 import React from 'react';
-
 const CaseStudy = () => {
     return (
-        <div>
+        <section className='max-w-[1320px] mx-auto'>
             
-        </div>
+        </section>
     );
 };
 
