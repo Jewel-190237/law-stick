@@ -57,7 +57,7 @@ const Team = () => {
                     modules={[EffectCoverflow, Autoplay]}
                     className="mySwiper w-full max-w-[1400px] !h-[500px]"
                 >
-                    <SwiperSlide className='!h-[480px] !w-[400px] border border-black'>
+                    <SwiperSlide className='!h-[480px] !w-[400px]'>
                         <div>
                             <Image src='/sliderTeam.png' height={410} width={370} alt='Blog Icon' />
                             <div style={gradientStyle} className='title relative w-[370px] -mt-[105px] ml-[9px] h-24 pl-5 rounded-lg '>
@@ -66,7 +66,7 @@ const Team = () => {
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className='!h-[480px] !w-[400px] border border-black'>
+                    <SwiperSlide className='!h-[480px] !w-[400px]'>
                         <div>
                             <Image src='/sliderTeam.png' height={410} width={370} alt='Blog Icon' />
                             <div style={gradientStyle} className=' title relative w-[370px] -mt-[105px] ml-[9px] h-24 pl-5 rounded-lg '>
@@ -75,7 +75,7 @@ const Team = () => {
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className='!h-[480px] !w-[400px] border border-black'>
+                    <SwiperSlide className='!h-[480px] !w-[400px]'>
                         <div>
                             <Image src='/sliderTeam.png' height={410} width={370} alt='Blog Icon' />
                             <div style={gradientStyle} className='title relative w-[370px] -mt-[105px] ml-[9px] h-24 pl-5 rounded-lg '>
@@ -84,7 +84,7 @@ const Team = () => {
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className='!h-[480px] !w-[400px] border border-black'>
+                    <SwiperSlide className='!h-[480px] !w-[400px]'>
                         <div>
                             <Image src='/sliderTeam.png' height={410} width={370} alt='Blog Icon' />
                             <div style={gradientStyle} className='title relative w-[370px] -mt-[105px] ml-[9px] h-24 pl-5 rounded-lg '>
@@ -93,7 +93,7 @@ const Team = () => {
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className='!h-[480px] !w-[400px] border border-black'>
+                    <SwiperSlide className='!h-[480px] !w-[400px]'>
                         <div>
                             <Image src='/sliderTeam.png' height={410} width={370} alt='Blog Icon' />
                             <div style={gradientStyle} className='title relative w-[370px] -mt-[105px] ml-[9px] h-24 pl-5 rounded-lg '>
@@ -102,7 +102,7 @@ const Team = () => {
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className='!h-[480px] !w-[400px] border border-black'>
+                    <SwiperSlide className='!h-[480px] !w-[400px]'>
                         <div>
                             <Image src='/sliderTeam.png' height={410} width={370} alt='Blog Icon' />
                             <div style={gradientStyle} className='title relative w-[370px] -mt-[105px] ml-[9px] h-24 pl-5 rounded-lg '>
@@ -111,7 +111,7 @@ const Team = () => {
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className='!h-[480px] !w-[400px] border border-black'>
+                    <SwiperSlide className='!h-[480px] !w-[400px]'>
                         <div>
                             <Image src='/sliderTeam.png' height={410} width={370} alt='Blog Icon' />
                             <div style={gradientStyle} className='title relative w-[370px] -mt-[105px] ml-[9px] h-24 pl-5 rounded-lg '>
@@ -120,7 +120,7 @@ const Team = () => {
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className='!h-[480px] !w-[400px] border border-black'>
+                    <SwiperSlide className='!h-[480px] !w-[400px]'>
                         <div>
                             <Image src='/sliderTeam.png' height={410} width={370} alt='Blog Icon' />
                             <div style={gradientStyle} className='title relative w-[370px] -mt-[105px] ml-[9px] h-24 pl-5 rounded-lg '>
@@ -129,7 +129,7 @@ const Team = () => {
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className='!h-[480px] !w-[400px] border border-black'>
+                    <SwiperSlide className='!h-[480px] !w-[400px]'>
                         <div>
                             <Image src='/sliderTeam.png' height={410} width={370} alt='Blog Icon' />
                             <div style={gradientStyle} className='title relative w-[370px] -mt-[105px] ml-[9px] h-24 pl-5 rounded-lg '>
