@@ -71,3 +71,14 @@
     line-height: normal;
     text-transform: capitalize;
 }
+
+.section-description2 {
+    color: var(--text-secondary, #5B5353);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
