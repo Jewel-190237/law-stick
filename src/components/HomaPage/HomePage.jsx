@@ -11,6 +11,7 @@ import WhatWeOffer from './WhatWeOffer';
 import OnlineBooking from '../Home2/OnlineBooking';
 import LatestAndTopBlog from '../Home2/LatestAndTopBlog';
 import ClientsExperience from '../Home2/ClientsEcperience';
+import CaseStudy from '../Home2/CaseStudy';
 
 const HomePage = () => {
     return (
@@ -25,6 +26,7 @@ const HomePage = () => {
             <Blog/>
 
             {/* home2 */}
+            <CaseStudy/>
             <ClientsExperience/>
             <LatestAndTopBlog/>
             <OnlineBooking/>
