@@ -17,13 +17,13 @@ const Expert = () => {
     return (
         <section className='max-w-[1230px] mx-auto '>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-20 items-center justify-center h-full'>
-                <div className='flex justify-center items-center h-[500px]'>
+                <div className='flex flex-col justify-center items-center h-[700px] gap-56'>
                     <Swiper
                         effect={'cards'}
                         grabCursor={true}
                         loop={true}
                         modules={[EffectCards]}
-                        className="mySwiper w-full max-w-[424px] max-h-[580px] -mt-60"
+                        className="mySwiper w-full max-w-[424px] max-h-[580px] -mt-20"
                     >
                         <SwiperSlide className='flex !h-[480px] justify-center items-center'>
                             <Image src='/image 1.png' height={480} width={424} alt='Blog Icon' />
@@ -38,6 +38,10 @@ const Expert = () => {
                             <Image src='/image 4.png' height={480} width={424} alt='Blog Icon' />
                         </SwiperSlide>
                     </Swiper>
+                    <div className=''>
+                        <p className='text-[#B68C5A] text-[14px] font-medium mt-3'>Real Specie</p>
+                        <h3 className='text-[#021C1B] text-[18px] font-medium mt-3'>Divorce Law Case</h3>
+                    </div>
                 </div>
                 <div className='flex flex-col'>
                     <div className='flex items-center gap-2'>
