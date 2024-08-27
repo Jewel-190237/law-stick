@@ -10,6 +10,7 @@ import OurService from './OurService';
 import WhatWeOffer from './WhatWeOffer';
 import OnlineBooking from '../Home2/OnlineBooking';
 import LatestAndTopBlog from '../Home2/LatestAndTopBlog';
+import ClientsExperience from '../Home2/ClientsEcperience';
 
 const HomePage = () => {
     return (
@@ -24,6 +25,7 @@ const HomePage = () => {
             <Blog/>
 
             {/* home2 */}
+            <ClientsExperience/>
             <LatestAndTopBlog/>
             <OnlineBooking/>
         </div>
