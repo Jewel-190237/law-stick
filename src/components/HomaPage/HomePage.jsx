@@ -13,7 +13,6 @@ import OnlineBooking from '../Home2/OnlineBooking';
 import LatestAndTopBlog from '../Home2/LatestAndTopBlog';
 import ClientsExperience from '../Home2/ClientsEcperience';
 import OurTeam from '../Home2/OurTeam/OurTeam';
-import Demo from '../Home2/Demo';
 
 const HomePage = () => {
     return (
@@ -33,7 +32,7 @@ const HomePage = () => {
             <LatestAndTopBlog/>
             <OnlineBooking/>
             <OurTeam/>
-            <Demo/>
+        
         </div>
     );
 };
