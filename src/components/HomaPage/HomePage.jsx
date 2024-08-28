@@ -11,7 +11,7 @@ import WhatWeOffer from './WhatWeOffer';
 import OnlineBooking from '../Home2/OnlineBooking';
 import LatestAndTopBlog from '../Home2/LatestAndTopBlog';
 import ClientsExperience from '../Home2/ClientsEcperience';
-import CaseStudy from '../Home2/CaseStudy';
+import OurTeam from '../Home2/OurTeam/OurTeam';
 
 const HomePage = () => {
     return (
@@ -30,6 +30,7 @@ const HomePage = () => {
             <ClientsExperience/>
             <LatestAndTopBlog/>
             <OnlineBooking/>
+            <OurTeam/>
         </div>
     );
 };
