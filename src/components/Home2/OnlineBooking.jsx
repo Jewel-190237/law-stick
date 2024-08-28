@@ -12,7 +12,7 @@ const OnlineBooking = () => {
             <div className='flex flex-col md:flex-row mt-14 justify-between'>
                 <div className='bg-[#EFF5F5] grid grid-cols-4 rounded hover:text-[#B68C5A]'>
                     <div className='py-14 pl-10 '>
-                        <Image className='' src='/personIcon.png' width={56} height={56} alt='image' />
+                        <Image className='text-black hover:text-[#B68C5A]' src='/Person1Icon.png' width={56} height={56} alt='image' />
                     </div>
                     <div className='w-[1.5px] h-[78px] mx-10 mt-12 bg-[#D9CDCD]'>
                         <br />
@@ -25,7 +25,7 @@ const OnlineBooking = () => {
                 </div>
                 <div className='bg-[#EFF5F5] grid grid-cols-4 rounded hover:text-[#B68C5A] '>
                     <div className='py-14 pl-10'>
-                        <Image src='/pay.png' width={56} height={56} alt='image' />
+                        <Image className='text-black hover:text-[#B68C5A]' src='/handIcon.png' width={56} height={56} alt='image' />
 
                     </div>
                     <div className='w-[1.5px] h-[78px] mx-10 mt-12 bg-[#D9CDCD]'>
@@ -39,7 +39,7 @@ const OnlineBooking = () => {
                 </div>
                 <div className='bg-[#EFF5F5] grid grid-cols-4 rounded hover:text-[#B68C5A] transition-colors duration-300 group'>
                     <div className='py-14 pl-10'>
-                        <Image className='' src='/hand.png' width={56} height={56} alt='image' />
+                        <Image className='text-black hover:text-[#B68C5A]' src='/payIcon.png' width={56} height={56} alt='image' />
 
                     </div>
                     <div className='w-[1.5px] h-[78px] mx-10 mt-12 bg-[#D9CDCD]'>
