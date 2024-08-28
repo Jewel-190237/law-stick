@@ -26,7 +26,7 @@ const HomePage = () => {
             <Blog/>
 
             {/* home2 */}
-            <CaseStudy/>
+            
             <ClientsExperience/>
             <LatestAndTopBlog/>
             <OnlineBooking/>

@@ -5,15 +5,15 @@ import React from 'react';
 const ClientsExperience = () => {
     return (
         <section className='bg-[#EFF5F5] py-14'>
-            <div className='max-w-[1320px] mx-auto'>
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-6 items-center'>
+            <div className='max-w-[1320px] mx-auto border border-red-800'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-6 items-center justify-between'>
                     <div className=''>
                         {/* Slider Part */}
                         <div className="carousel w-full">
                             <div id="s1" className="carousel-item relative w-full">
                                 <div className='pt-20 pb-8'>
                                     <div className=''>
-                                        <Image className=' w-1/2 lg:w-full mt-0 lg:-mt-20' src='/clientSliderImage.png' height={552} width={463} alt='Blog Icon' />
+                                        <Image className='mt-0 lg:-mt-20' src='/clientSliderImage.png' height={552} width={463} alt='Blog Icon' />
                                     </div>
                                     <div className='relative bg-white w-[481px] h-[290px] pt-2 px-12 rounded-md -mt-60 ml-20'>
                                         <div>
@@ -94,7 +94,7 @@ const ClientsExperience = () => {
                         <h4 className='section-heading2'>client’s experience</h4>
                         <h1 className='mt-6 section-title2'>some good word from <br className='hidden lg:flex' />
                             our client’s</h1>
-                        <p className='mt-10 section-description2 w-full lg:w-10/12'>
+                        <p className='mt-10 section-description2 '>
                             Lorem ipsum dolor sit amet consectetur. Erat libero lectus dictum odio at blandit. Ultrices ornare porttitor habitant vitae et nunc. Adipiscing ultrices risus scelerisque hac etiam eget fusce faucibus morbi.
                         </p>
                         <div className='mt-12 flex gap-6'>

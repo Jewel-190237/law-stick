@@ -3,16 +3,16 @@ import React from 'react';
 
 const LatestAndTopBlog = props => {
     return (
-        <section className='max-w-[1320px] mx-auto'>
+        <section className='max-w-[1320px] mx-auto pt-[130px]'>
             <div>
-                <h4 className='section-heading2'>online booking</h4>
+                <h4 className='section-heading2'>latest and top blog</h4>
                 <h1 className='mt-6 section-title2'>Legal Insights & Expert Advice: <br className='hidden lg:flex' /> Our Blog</h1>
                 <p className='mt-10 section-description2 w-full lg:w-1/2'> Stay informed with our expert legal insights and advice. Our blog covers key topics to help
                     you navigate complex legal matters with confidence.
                 </p>
             </div>
             <div>
-                <div className='mt-[40px] grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-[1250px]'>
+                <div className='mt-[40px] grid grid-cols-1 lg:grid-cols-3 gap-6'>
                     <div className='col-span-2 '>
                         <div className='bg-[#EFF5F5] w-full rounded-lg px-5 pt-5 pb-1'>
                             <div className='section-heading uppercase'>
