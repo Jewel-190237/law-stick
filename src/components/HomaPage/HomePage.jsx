@@ -1,5 +1,6 @@
-import React from 'react';
+"use client"
 
+import React from 'react';
 import Blog from './Blog';
 import Experience from './Experience';
 import Team from './Team/Team';
